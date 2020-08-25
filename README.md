@@ -1,0 +1,1 @@
+szm16pomocit.pl
