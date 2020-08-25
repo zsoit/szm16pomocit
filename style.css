@@ -1,0 +1,185 @@
+.page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+    margin: 0;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, 400px) minmax(180px, 181px);
+    border: 1px solid black;
+}
+
+.page__item {
+    margin: 0px;
+}
+
+.menu {
+    display: flex;
+    padding: 15px;
+    background-color: black;
+    justify-content: center;
+}
+
+.menu__item {
+    list-style: none;
+    margin: 7px;
+}
+
+.menu__link {
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu__link:hover {
+    color: gold;
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+    background: rgb(58, 57, 57);
+    padding: 2px;
+    margin: 2px;
+}
+
+.home {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 20px 30px;
+}
+
+.home__header {
+    display: block;
+}
+
+.home__parapgraph {
+    display: block;
+    font-size: 20px;
+    display: flex;
+}
+
+.header__name {
+    font-size: 40px;
+    margin: 10px;
+    display: none;
+}
+
+p.header__title {}
+
+
+/*FOOTER */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.footer__image {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    margin: 7px;
+    font-size: 35px;
+}
+
+.footer a,
+.footer a:visited {
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+
+/*HIPERLINK A */
+
+.menu a,
+.menu a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
+
+/* MAIN CONTENT*/
+
+h2 {
+    font-size: 35px;
+    margin: 5px;
+    padding: 25px;
+}
+
+h2::before {
+    content: 'xd';
+    background: red;
+    color: red;
+    margin: 20px;
+}
+
+p {
+    font-size: 19px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.wrapper__home {}
+
+.home__avatar {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+
+/* KONTAKT*/
+
+.contact a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.contact a:hover {
+    color: red;
+}
+
+.contact {
+    padding: 19px;
+}
+
+p.contact__phone::before {
+    content: '📞';
+    background-color: lightgreen;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+p.contact__mail::before {
+    content: '📧';
+    background-color: lightgreen;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/* PHOTOS xd*/
+
+.photos__item {
+    width: 200px;
+}
+
+img {
+    padding: 20px;
+}

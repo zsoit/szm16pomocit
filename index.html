@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/50718158f8.js" crossorigin="anonymous"></script>
+    <title>SzM16</title>
+    <style>
+
+    </style>
+</head>
+
+<body class="page">
+
+
+    <header class="header page__item">
+
+        <img src="img/szm16logo-whitepng.png" width="200" class="header__img">
+
+        <h1 class="header__name">
+            SzM16 - Pomoc IT
+
+        </h1>
+        <p class="header__tile">Pomoc w naprawie komputera i nie tylko!</p>
+
+
+
+    </header>
+
+    <nav class="nav page__item">
+
+
+        <ul class="menu">
+            <li onclick="Home()" class="menu__item"><a class="menu__link" href="#home"> 🏠O mnie</a></li>
+            <li onclick="Photos()" class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
+            <li onclick="Price()" class="menu__item"><a class="menu__link" href="#oferta">Oferta</a></li>
+            <li onclick="Contact()" class="menu__item"><a class="menu__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+
+
+
+
+
+    </nav>
+    <main id="main__content" class="main page__item">
+
+
+        <h2>O mnie</h2>
+        <div class="wrapper__home">
+
+
+            <p> Nazywam się Szymon Monasterski i na codzień zajmuję się usługami informatycznymi. <br> Potrafię naprawić komputer, smartfon skonfigurować sieć, urządzenia elektorniczne. <br> Obecnie uczęszczam do technikum informatycznego, gdzie uczę zawodu.
+            </p>
+            <!--slider-->
+            <img name="slide" width="400" height="200">
+
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer page__item">
+        <p class="footer__info">&copy Copyright 2020 Szymon Monasterski </p>
+
+
+
+        <div class="footer__image">
+            <a href="https://www.facebook.com/SzM16Monster" target="_blank"><i class="fab fa-facebook footer__item"></i></a>
+            <a href="https://www.instagram.com/szm_16_monster" target="_blank"><i class="fab fa-instagram footer__item"></i></a>
+        </div>
+
+
+        <p class="footer__info">www.szm16pomocit.pl </p>
+
+
+
+    </footer>
+
+
+
+    <script src="app/slider.js"></script>
+    <script src="app/home.js"></script>
+    <script src="app/photos.js"></script>
+    <script src="app/price.js"></script>
+    <script src="app/contact.js"></script>
+
+
+
+
+</body>
+
+
+</html>
